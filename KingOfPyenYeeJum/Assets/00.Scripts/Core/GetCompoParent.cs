@@ -7,7 +7,7 @@ public class GetCompoParent : MonoBehaviour
 {
     protected Dictionary<Type,IGetCompoable> _components;
 
-    protected void Awake()
+    protected virtual void Awake()
     {
         IGetCompoable[] babies = GetComponentsInChildren<IGetCompoable>(true);
 
@@ -33,20 +33,25 @@ public class GetCompoParent : MonoBehaviour
 
     }
 
-    public void AddCompoDic(Type type, IGetCompoable compo)
+    public virtual void AddCompoDic(Type type, IGetCompoable compo)
     {
         if(!_components.ContainsKey(type))
         _components.Add(type, compo);
     }
 
-    public void AddRealCOmpo<T>() where T : Component,IGetCompoable
+    public virtual void RemoveCompoDic(Type type)
+    {
+        if (_components.ContainsKey(type))
+            _components.Remove(type);
+    }
+    public virtual void AddRealCOmpo<T>() where T : Component,IGetCompoable
     {
         T instance = gameObject.AddComponent<T>();
         _components.Add(instance.GetType(), instance);
     }
 
 
-    public T GetCompo<T>(bool isIncludeChild = false) where T : IGetCompoable
+    public virtual T GetCompo<T>(bool isIncludeChild = false) where T : Component,IGetCompoable
     {
         if (_components.TryGetValue(typeof(T), out var component))
         {
@@ -54,6 +59,12 @@ public class GetCompoParent : MonoBehaviour
         }
 
         if (isIncludeChild == false) return default; 
+        //-----Under code is Ailian's Langage ---I think that Linq is not good idea
+
+        Type findType = _components.Keys.FirstOrDefault(type => type.IsSubclassOf(typeof(T)));
+        
+        if (findType != null)
+            return (T)_components[findType];
 
         return default;
     }
