@@ -1,2 +1,12 @@
 fileFormatVersion: 2
 guid: 5c26c490a555a564386a39429517552d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - _itemCompoPefab: {fileID: 7567310933825941933, guid: 719f24a88eef12044b974440ebed11b0, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -5,19 +5,18 @@ using UnityEngine;
 
 public class GetCompoParent : MonoBehaviour
 {
-    protected Dictionary<Type,IGetCompoable> _components;
+    protected Dictionary<Type,IGetCompoable> _components = new Dictionary<Type, IGetCompoable>();
 
     protected virtual void Awake()
     {
         IGetCompoable[] babies = GetComponentsInChildren<IGetCompoable>(true);
 
         {        
-            int i = 0;
-            while (babies.Length > 0)
+            for(int i = 0; i < babies.Length; i++)
             {
                 babies[i].Init(this);
-                i++;
             }
+            
         }
 
         IAfterInitable[] babies2 = GetComponentsInChildren<IAfterInitable>(true);

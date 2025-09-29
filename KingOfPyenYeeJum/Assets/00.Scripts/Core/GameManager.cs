@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class GameManager : GetCompoParent
 {
-    public GameManager Instance;
+    public static GameManager Instance;
 
     protected override void Awake()
     {
