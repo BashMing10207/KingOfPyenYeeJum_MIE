@@ -1,5 +1,8 @@
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using static UnityEditor.PlayerSettings;
 
 public class GameCursor : GetCompoableBase
 {
@@ -8,12 +11,19 @@ public class GameCursor : GetCompoableBase
 
     private ItemCompo _selectedItemCompo;
 
+    private InputManagerCompo _inputManagerCompo;
+
+    private List<RaycastResult> _hitList = new();
+
     private void Start()
     {
         if(!!_visual)
         {
             _visual = GetComponentInChildren<Image>();
         }
+
+        _inputManagerCompo = Mom.GetCompo<InputManagerCompo>();
+        _inputManagerCompo.OnTouchup.AddListener(DropItem);
     }
 
     public void SelectItem(ItemCompo itemcompo)
@@ -29,19 +39,58 @@ public class GameCursor : GetCompoableBase
 
     public void InitVisual()
     {
-        if(!!_selectedItemCompo)
+        _visual.color = Color.clear;
+
+        if (!!_selectedItemCompo)
         {
-            _visual.color = Color.white;
-            _visual.sprite = _selectedItemCompo.GetCurrentItem().visual;
+            if (_selectedItemCompo.GetCurrentItem() != null)
+            {
+                if ( _selectedItemCompo.GetCurrentItem().visual !=null )
+                {
+                    _visual.color = Color.white;
+                    _visual.sprite = _selectedItemCompo.GetCurrentItem().visual;
+                }
+
+            }
+
         }
-        else
-        {
-            _visual.color = Color.clear;
-        }
+
+
+      
     }
 
     public void DropItem()
     {
+        if (_selectedItemCompo == null)
+            return;
+
+
+        Vector2 pos = Input.mousePosition;
+        var ped = new PointerEventData(EventSystem.current) { position = pos };
+
+        _hitList.Clear();
+
+        EventSystem.current.RaycastAll(ped, _hitList);
+
+        if(_hitList.Count !=0)
+        {
+            Debug.Log(_hitList[0]);
+
+            ItemCompo slot = _hitList[0].gameObject.GetComponent<ItemCompo>();
+            if (slot)
+            {
+                if (slot.InsertItem(_selectedItemCompo.GetCurrentItem()))
+                    _selectedItemCompo.RemoveItem();
+
+            }
+        }
+
+
         
+        
+        
+
+        _selectedItemCompo = null;
+        InitVisual();
     }
 }

@@ -4,6 +4,7 @@ public class GameManager : GetCompoParent
 {
     public static GameManager Instance;
 
+
     protected override void Awake()
     {
         Instance = this;

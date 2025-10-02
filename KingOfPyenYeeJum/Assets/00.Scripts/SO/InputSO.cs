@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 [CreateAssetMenu(fileName = "InputSO", menuName = "SO/InputSO")]
-public class InputSO : ScriptableObject, InputSystem_Actions.IUIActions, InputSystem_Actions.IPlayerActions
+public class InputSO : ScriptableObject, InputSystem_Actions.IUIActions, InputSystem_Actions.IPlayerActions //SO can be somthing like singletone
 {
     public void OnAttack(InputAction.CallbackContext context)
     {
