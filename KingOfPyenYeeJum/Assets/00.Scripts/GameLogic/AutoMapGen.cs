@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class AutoMapGen : MonoBehaviour
@@ -11,6 +12,9 @@ public class AutoMapGen : MonoBehaviour
 
     [SerializeField]
     private Transform _slotParent;
+
+    [SerializeField]
+    private RandAutoHintOfMapGenerateSO _mapGenHint;
 
     [ContextMenu("RunGenrerateHEHEHA")]
     private void RunMapGen()
@@ -27,8 +31,35 @@ public class AutoMapGen : MonoBehaviour
             slots[i].SetMap(_mapGenSource.map[i]);
         }
 
-
-
     }
 
+    [ContextMenu("GetMapData")]
+    private void RunGetMapData()
+    {
+        List<SlotCompo> slots = _slotParent.GetComponentsInChildren<SlotCompo>().ToList();
+
+        _mapGenSource.map.Clear();
+
+        for (int i = 0; i < slots.Count; i++)
+        {
+            _mapGenSource.map.Add(new(slots[i].GetItemSOArr()));
+        }
+    }
+
+    [ContextMenu("GetRandomAutoMapData")]
+    private void GenerateRandomMapData()
+    {
+        _mapGenSource.map.Clear();
+
+        _mapGenHint.itemcnt = _mapGenHint.itemcnt - (_mapGenHint.itemcnt % 3);
+
+        if (_mapGenHint.LayerCnt ==1)
+        {
+            //if(_mapGenHint.itemcnt == 0)
+        }
+        else
+        {
+
+        }
+    }
 }

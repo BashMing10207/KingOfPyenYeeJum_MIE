@@ -32,4 +32,9 @@ public class BashTuple <T1,T2>
 public class BashList<T>
 {
     public List<T> List;
+
+    public BashList(List<T> list)
+    {
+        List = list;
+    }
 }
