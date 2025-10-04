@@ -55,10 +55,72 @@ public class AutoMapGen : MonoBehaviour
 
         if (_mapGenHint.LayerCnt ==1)
         {
-            //if(_mapGenHint.itemcnt == 0)
+            int tmp = 0; // <- itemSlotcount!
+            for(int i =0; i<_mapGenSource.map.Count; i++)
+            {
+                for(int j =0; j<_mapGenSource.map[i].List.Count; j++)
+                {
+                    for(int k =0; k < _mapGenSource.map[i].List[j].items.Length; k++)
+                    {
+                        tmp++;
+                    }
+                }
+            }
+
+            if(_mapGenHint.itemcnt < tmp)
+            {
+                Debug.LogWarning("NoWay;; MingMingTT");
+
+                return;
+            }
+
+            List<ItemSO> randomitemlist = new List<ItemSO>();
+
+            int itemcnttmp = _mapGenHint.itemcnt;
+            while(itemcnttmp > 0)
+            {
+                ItemSO inertItemming = _mapGenHint.ExistItems[Random.Range(0, _mapGenHint.ExistItems.Length-1)];
+                for(int i =0; i<3;i++)
+                {
+                    randomitemlist.Add(inertItemming);
+                    itemcnttmp--;
+                }
+                
+            }
+
+            while(randomitemlist.Count > 0)
+            {
+                for (int i = 0; i < _mapGenSource.map.Count; i++)
+                {
+                    for (int j = 0; j < _mapGenSource.map[i].List.Count; j++)
+                    {
+                        for (int k = 0; k < _mapGenSource.map[i].List[j].items.Length; k++)
+                        {
+                            if (Random.Range(0, 9) < 2)
+                            {
+
+                                if(randomitemlist.Count <= 0)
+                                {
+                                    return;
+                                }
+
+                                _mapGenSource.map[i].List[j].items[k]=randomitemlist[0];
+
+                                randomitemlist.RemoveAt(0);
+
+                            }
+                        }
+                    }
+                }
+            }
+
+            
+
         }
         else
         {
+
+
 
         }
     }
