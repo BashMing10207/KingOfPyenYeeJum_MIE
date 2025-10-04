@@ -14,7 +14,7 @@ public struct InsideArray<T> where T : class
         }
 }
 
-public class SlotCompo : MonoBehaviour
+public class SlotCOmpo : MonoBehaviour
 {
     [SerializeField]
     private BashList<InsideArray<ItemSO>> _itemsSOs;
@@ -222,7 +222,7 @@ public class SlotCompo : MonoBehaviour
                         {
                             if(_itemsSOs.List[0].items[k]==currentCheckItem)
                             {
-                                _itemCompos.List[0].items[k].SetItemWithOutCheck(null);
+                                _itemCompos.List[0].items[k].SetItemWithOutCheck (null);
 
                             }
                         }

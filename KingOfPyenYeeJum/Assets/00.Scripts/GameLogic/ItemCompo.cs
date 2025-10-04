@@ -9,7 +9,7 @@ public class ItemCompo : MonoBehaviour, IPointerDownHandler//, IPointerUpHandler
 
     protected Image _visual;
 
-    public SlotCompo MomSlot;
+    public SlotCOmpo MomSlot;
 
     protected int _myIdx=0;
 
@@ -18,7 +18,7 @@ public class ItemCompo : MonoBehaviour, IPointerDownHandler//, IPointerUpHandler
         _visual = GetComponentInChildren<Image>();
     }
 
-    public void InitV2(SlotCompo slotcompo, int idx)
+    public void InitV2(SlotCOmpo slotcompo, int idx)
     {
         MomSlot = slotcompo;
         _myIdx = idx;

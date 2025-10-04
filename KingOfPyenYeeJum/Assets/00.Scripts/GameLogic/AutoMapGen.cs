@@ -8,7 +8,7 @@ public class AutoMapGen : MonoBehaviour
     private MapGenSourceSO _mapGenSource;
 
     [SerializeField]
-    private SlotCompo[] _slotTypes; // 0: 1slot / 1:2slot / 2:3slot  * * *
+    private SlotCOmpo[] _slotTypes; // 0: 1slot / 1:2slot / 2:3slot  * * *
 
     [SerializeField]
     private Transform _slotParent;
@@ -21,7 +21,7 @@ public class AutoMapGen : MonoBehaviour
     { 
         if(_mapGenSource == null) return;
 
-        List<SlotCompo> slots = new();
+        List<SlotCOmpo> slots = new();
 
         for (int i = 0; i < _mapGenSource.map.Count; i++)
         {
@@ -36,7 +36,7 @@ public class AutoMapGen : MonoBehaviour
     [ContextMenu("GetMapData")]
     private void RunGetMapData()
     {
-        List<SlotCompo> slots = _slotParent.GetComponentsInChildren<SlotCompo>().ToList();
+        List<SlotCOmpo> slots = _slotParent.GetComponentsInChildren<SlotCOmpo>().ToList();
 
         _mapGenSource.map.Clear();
 

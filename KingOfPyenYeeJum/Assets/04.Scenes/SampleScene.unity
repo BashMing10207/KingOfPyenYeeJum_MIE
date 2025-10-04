@@ -1852,6 +1852,7 @@ MonoBehaviour:
   - {fileID: 4812681906750068145, guid: 754daac66f6694f4bb3f191364dff960, type: 3}
   - {fileID: 4812681906750068145, guid: 754daac66f6694f4bb3f191364dff960, type: 3}
   _slotParent: {fileID: 459013129}
+  _mapGenHint: {fileID: 0}
 --- !u!4 &901889799
 Transform:
   m_ObjectHideFlags: 0
