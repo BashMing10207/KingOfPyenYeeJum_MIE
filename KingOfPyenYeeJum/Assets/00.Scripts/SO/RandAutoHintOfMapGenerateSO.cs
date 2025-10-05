@@ -1,6 +1,6 @@
 using UnityEngine;
-[CreateAssetMenu(fileName="MapHintSO",menuName = "So/MapHintSO")]
-public class RandAutoHintOfMapGenerateSO : MonoBehaviour
+[CreateAssetMenu(fileName="MapHintSO",menuName = "SO/MapHintSO")]
+public class RandAutoHintOfMapGenerateSO : ScriptableObject
 {
 
     public ItemSO[] ExistItems;

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f86058b6c544a974fa0a4a95cc893606, type: 3}
+  m_Name: MapHintSO1
+  m_EditorClassIdentifier: 
+  ExistItems:
+  - {fileID: 11400000, guid: d002cc2495d06724997eba831f849347, type: 2}
+  - {fileID: 11400000, guid: 203919320b76eb844abd86491d39d605, type: 2}
+  - {fileID: 11400000, guid: 2c192ab1ef327894c928efd1f0e88d87, type: 2}
+  Difficulty: 0
+  LayerCnt: 3
+  SlotCnt: 12
+  itemcnt: 18

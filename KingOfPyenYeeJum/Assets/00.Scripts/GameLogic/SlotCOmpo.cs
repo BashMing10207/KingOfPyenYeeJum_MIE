@@ -12,6 +12,17 @@ public struct InsideArray<T> where T : class
         {
             items = new T[idxsize];
         }
+
+public int EmptyCnt(T obj)
+    {
+        int cnt = 0;
+        for(int i = 0;i<items.Length;i++)
+        {
+            if(items[i] == obj)
+            cnt++;
+        }
+        return cnt;
+    }
 }
 
 public class SlotCOmpo : MonoBehaviour
@@ -158,7 +169,7 @@ public class SlotCOmpo : MonoBehaviour
                     if (i == 0)
                         _itemCompos.List[0].items[j].InitItem(_itemsSOs.List[0].items[j]);
                     else
-                        _itemCompos.List[i].items[j].InitItem(_itemsSOs.List[i].items[j], Color.clear);
+                        _itemCompos.List[1].items[j].InitItem(null, Color.clear);
                 }
             }
 
