@@ -1,0 +1,1742 @@
+fileFormatVersion: 2
+guid: 081de0973bd33f84ab3b25e0b3155a7f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2236684638295418721
+    second: UNIEMOJI_0
+  - first:
+      213: 2518808416022067888
+    second: UNIEMOJI_1
+  - first:
+      213: -4993198934025983780
+    second: UNIEMOJI_2
+  - first:
+      213: -5000413555767943060
+    second: UNIEMOJI_3
+  - first:
+      213: -6842220055004921371
+    second: UNIEMOJI_4
+  - first:
+      213: 7278469421333905132
+    second: UNIEMOJI_5
+  - first:
+      213: 4677152857747187914
+    second: UNIEMOJI_6
+  - first:
+      213: -1689527147230749197
+    second: UNIEMOJI_7
+  - first:
+      213: -8647319152171807559
+    second: UNIEMOJI_8
+  - first:
+      213: -1706847974927636674
+    second: UNIEMOJI_9
+  - first:
+      213: -4763267286884243979
+    second: UNIEMOJI_10
+  - first:
+      213: 4978690363126629856
+    second: UNIEMOJI_11
+  - first:
+      213: -4467397952414280678
+    second: UNIEMOJI_12
+  - first:
+      213: 4440095130320405659
+    second: UNIEMOJI_13
+  - first:
+      213: 5844982813008342366
+    second: UNIEMOJI_14
+  - first:
+      213: 6029313250926911100
+    second: UNIEMOJI_15
+  - first:
+      213: -6036045788641860321
+    second: UNIEMOJI_16
+  - first:
+      213: 1698155045271541929
+    second: UNIEMOJI_17
+  - first:
+      213: -1052338558094785648
+    second: UNIEMOJI_18
+  - first:
+      213: -925929890530649091
+    second: UNIEMOJI_19
+  - first:
+      213: 203391489753006152
+    second: UNIEMOJI_20
+  - first:
+      213: -5329717037279645283
+    second: UNIEMOJI_21
+  - first:
+      213: 8772080672478160155
+    second: UNIEMOJI_22
+  - first:
+      213: 2207913963523103723
+    second: UNIEMOJI_23
+  - first:
+      213: 4494593536522944280
+    second: UNIEMOJI_24
+  - first:
+      213: 7566704591397432743
+    second: UNIEMOJI_25
+  - first:
+      213: -284814227701526597
+    second: UNIEMOJI_26
+  - first:
+      213: -1183094202589249538
+    second: UNIEMOJI_27
+  - first:
+      213: 3486949549332683075
+    second: UNIEMOJI_28
+  - first:
+      213: -2018225349181721851
+    second: UNIEMOJI_29
+  - first:
+      213: 4018490275046865077
+    second: UNIEMOJI_30
+  - first:
+      213: 4441821826278577439
+    second: UNIEMOJI_31
+  - first:
+      213: 2346003545266373188
+    second: UNIEMOJI_32
+  - first:
+      213: 1305139209084801865
+    second: UNIEMOJI_33
+  - first:
+      213: 6509467292921499804
+    second: UNIEMOJI_34
+  - first:
+      213: 8447700453328798648
+    second: UNIEMOJI_35
+  - first:
+      213: 4390502780263204287
+    second: UNIEMOJI_36
+  - first:
+      213: -958788925485663718
+    second: UNIEMOJI_37
+  - first:
+      213: -6986538831627461879
+    second: UNIEMOJI_38
+  - first:
+      213: -6455488600028573119
+    second: UNIEMOJI_39
+  - first:
+      213: 1052137719532954107
+    second: UNIEMOJI_40
+  - first:
+      213: 6500329146996672722
+    second: UNIEMOJI_41
+  - first:
+      213: 4844244283751256848
+    second: UNIEMOJI_42
+  - first:
+      213: -834302956423219075
+    second: UNIEMOJI_43
+  - first:
+      213: -3303510130944305143
+    second: UNIEMOJI_44
+  - first:
+      213: 2374514718372300239
+    second: UNIEMOJI_45
+  - first:
+      213: 5064252188817508572
+    second: UNIEMOJI_46
+  - first:
+      213: -7781549520027137725
+    second: UNIEMOJI_47
+  - first:
+      213: -7371196984056401278
+    second: UNIEMOJI_48
+  - first:
+      213: 208549279507514453
+    second: UNIEMOJI_49
+  - first:
+      213: 8685112764807370325
+    second: UNIEMOJI_50
+  - first:
+      213: 3528011157111686753
+    second: UNIEMOJI_51
+  - first:
+      213: -1725827156950807083
+    second: UNIEMOJI_52
+  - first:
+      213: 5259020499705647373
+    second: UNIEMOJI_53
+  - first:
+      213: 5797498757699842252
+    second: UNIEMOJI_54
+  - first:
+      213: 1674051232920257629
+    second: UNIEMOJI_55
+  - first:
+      213: 8879454589284398432
+    second: UNIEMOJI_56
+  - first:
+      213: -1128373481440308797
+    second: UNIEMOJI_57
+  - first:
+      213: 2528150444670619454
+    second: UNIEMOJI_58
+  - first:
+      213: -397509268116523336
+    second: UNIEMOJI_59
+  - first:
+      213: 627299896684923288
+    second: UNIEMOJI_60
+  - first:
+      213: -6797165901201672200
+    second: UNIEMOJI_61
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 45
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UNIEMOJI_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 171
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 167eb2cf3dc4a0f10800000000000000
+      internalID: 2236684638295418721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 171
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba724eb8ea94f220800000000000000
+      internalID: 2518808416022067888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 171
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8a58c460894bab0800000000000000
+      internalID: -4993198934025983780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 171
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6067664d56fa9ab0800000000000000
+      internalID: -5000413555767943060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_4
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 171
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e1c0629c1d8b01a0800000000000000
+      internalID: -6842220055004921371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_5
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 170
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee762f2061520560800000000000000
+      internalID: 7278469421333905132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_6
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 171
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac869365eb598e040800000000000000
+      internalID: 4677152857747187914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_7
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 171
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fd9ee6d2089d88e0800000000000000
+      internalID: -1689527147230749197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_8
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 171
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc0e5beb0d8ef780800000000000000
+      internalID: -8647319152171807559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_9
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 171
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37e7d06fce0058e0800000000000000
+      internalID: -1706847974927636674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_10
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 170
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5a603b3a975edb0800000000000000
+      internalID: -4763267286884243979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_11
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 129
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e5c2dcc18cd71540800000000000000
+      internalID: 4978690363126629856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_12
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 129
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a141a084b3d9002c0800000000000000
+      internalID: -4467397952414280678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_13
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 129
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9480b31ff26e9d30800000000000000
+      internalID: 4440095130320405659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_14
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 129
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d20af76ec8d1150800000000000000
+      internalID: 5844982813008342366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_15
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 128
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7edd01057c6ca350800000000000000
+      internalID: 6029313250926911100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_16
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 129
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f156208e558ab3ca0800000000000000
+      internalID: -6036045788641860321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_17
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 127
+        width: 33
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a892f6340f019710800000000000000
+      internalID: 1698155045271541929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_18
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 129
+        width: 34
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093405d28a75561f0800000000000000
+      internalID: -1052338558094785648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_19
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 127
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb110c9baf6623f0800000000000000
+      internalID: -925929890530649091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_20
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 129
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 840c0197b7792d200800000000000000
+      internalID: 203391489753006152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_21
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 129
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d917997b79a0906b0800000000000000
+      internalID: -5329717037279645283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_22
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 87
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15612825e0bcb970800000000000000
+      internalID: 8772080672478160155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_23
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 87
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: beb5b624d0614ae10800000000000000
+      internalID: 2207913963523103723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_24
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 87
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f77321201006e30800000000000000
+      internalID: 4494593536522944280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 86
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adaf8a5cb5520960800000000000000
+      internalID: 7566704591397432743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_26
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 87
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbf8fda08f22c0cf0800000000000000
+      internalID: -284814227701526597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_27
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 87
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efff7de471ec49fe0800000000000000
+      internalID: -1183094202589249538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_28
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 87
+        width: 31
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349dea5f322246030800000000000000
+      internalID: 3486949549332683075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_29
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 86
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 503b559ecb2ddf3e0800000000000000
+      internalID: -2018225349181721851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_30
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 88
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8b7814d9b84c730800000000000000
+      internalID: 4018490275046865077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_31
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 88
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1559eeca6584ad30800000000000000
+      internalID: 4441821826278577439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_32
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 86
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442c8657bcdae8020800000000000000
+      internalID: 2346003545266373188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_33
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 48
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9431feb1239cc1210800000000000000
+      internalID: 1305139209084801865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_34
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 48
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c901c97a306465a50800000000000000
+      internalID: 6509467292921499804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_35
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 49
+        width: 26
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b3c191fdc24c3570800000000000000
+      internalID: 8447700453328798648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_36
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 50
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb504fa44033eec30800000000000000
+      internalID: 4390502780263204287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_37
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 49
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1a39d95d82b1b2f0800000000000000
+      internalID: -958788925485663718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_38
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 49
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b5f5be2f3da0f90800000000000000
+      internalID: -6986538831627461879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_39
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 48
+        width: 28
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14296b7225f7966a0800000000000000
+      internalID: -6455488600028573119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_40
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 72
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf12d837ea1f99e00800000000000000
+      internalID: 1052137719532954107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_41
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 48
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8cad14beec53a50800000000000000
+      internalID: 6500329146996672722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_42
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 013d53a92863a3340800000000000000
+      internalID: 4844244283751256848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_43
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 75
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78f557a1e5fb64f0800000000000000
+      internalID: -834302956423219075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_44
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 48
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9081925e9039722d0800000000000000
+      internalID: -3303510130944305143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_45
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 45
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc5848e3e88f3f020800000000000000
+      internalID: 2374514718372300239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_46
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 50
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8467fb886d74640800000000000000
+      internalID: 5064252188817508572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_47
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 54
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349cba0a0f1620490800000000000000
+      internalID: -7781549520027137725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28233e3b56f34b990800000000000000
+      internalID: -7371196984056401278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_49
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 6
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 554853bf67ae4e200800000000000000
+      internalID: 208549279507514453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_50
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 7
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556dd8c3b08b78870800000000000000
+      internalID: 8685112764807370325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_51
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 7
+        width: 18
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166c147847306f030800000000000000
+      internalID: 3528011157111686753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_52
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 7
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dd89363851ac08e0800000000000000
+      internalID: -1725827156950807083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_53
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 6
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01d37fe74bcbf840800000000000000
+      internalID: 5259020499705647373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_54
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 6
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc0b776576ad47050800000000000000
+      internalID: 5797498757699842252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_55
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 6
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5444021abc6b3710800000000000000
+      internalID: 1674051232920257629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_56
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 6
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065328157e82a3b70800000000000000
+      internalID: 8879454589284398432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_57
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 25
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c197c80c463750f0800000000000000
+      internalID: -1128373481440308797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_58
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 6
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3f86594f6bc51320800000000000000
+      internalID: 2528150444670619454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_59
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 26
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b63dfe3d63cb7af0800000000000000
+      internalID: -397509268116523336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_60
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 4
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8994b85beed94b800800000000000000
+      internalID: 627299896684923288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UNIEMOJI_61
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 7
+        width: 35
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f7f97330ad9ba1a0800000000000000
+      internalID: -6797165901201672200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UNIEMOJI_0: 2236684638295418721
+      UNIEMOJI_1: 2518808416022067888
+      UNIEMOJI_10: -4763267286884243979
+      UNIEMOJI_11: 4978690363126629856
+      UNIEMOJI_12: -4467397952414280678
+      UNIEMOJI_13: 4440095130320405659
+      UNIEMOJI_14: 5844982813008342366
+      UNIEMOJI_15: 6029313250926911100
+      UNIEMOJI_16: -6036045788641860321
+      UNIEMOJI_17: 1698155045271541929
+      UNIEMOJI_18: -1052338558094785648
+      UNIEMOJI_19: -925929890530649091
+      UNIEMOJI_2: -4993198934025983780
+      UNIEMOJI_20: 203391489753006152
+      UNIEMOJI_21: -5329717037279645283
+      UNIEMOJI_22: 8772080672478160155
+      UNIEMOJI_23: 2207913963523103723
+      UNIEMOJI_24: 4494593536522944280
+      UNIEMOJI_25: 7566704591397432743
+      UNIEMOJI_26: -284814227701526597
+      UNIEMOJI_27: -1183094202589249538
+      UNIEMOJI_28: 3486949549332683075
+      UNIEMOJI_29: -2018225349181721851
+      UNIEMOJI_3: -5000413555767943060
+      UNIEMOJI_30: 4018490275046865077
+      UNIEMOJI_31: 4441821826278577439
+      UNIEMOJI_32: 2346003545266373188
+      UNIEMOJI_33: 1305139209084801865
+      UNIEMOJI_34: 6509467292921499804
+      UNIEMOJI_35: 8447700453328798648
+      UNIEMOJI_36: 4390502780263204287
+      UNIEMOJI_37: -958788925485663718
+      UNIEMOJI_38: -6986538831627461879
+      UNIEMOJI_39: -6455488600028573119
+      UNIEMOJI_4: -6842220055004921371
+      UNIEMOJI_40: 1052137719532954107
+      UNIEMOJI_41: 6500329146996672722
+      UNIEMOJI_42: 4844244283751256848
+      UNIEMOJI_43: -834302956423219075
+      UNIEMOJI_44: -3303510130944305143
+      UNIEMOJI_45: 2374514718372300239
+      UNIEMOJI_46: 5064252188817508572
+      UNIEMOJI_47: -7781549520027137725
+      UNIEMOJI_48: -7371196984056401278
+      UNIEMOJI_49: 208549279507514453
+      UNIEMOJI_5: 7278469421333905132
+      UNIEMOJI_50: 8685112764807370325
+      UNIEMOJI_51: 3528011157111686753
+      UNIEMOJI_52: -1725827156950807083
+      UNIEMOJI_53: 5259020499705647373
+      UNIEMOJI_54: 5797498757699842252
+      UNIEMOJI_55: 1674051232920257629
+      UNIEMOJI_56: 8879454589284398432
+      UNIEMOJI_57: -1128373481440308797
+      UNIEMOJI_58: 2528150444670619454
+      UNIEMOJI_59: -397509268116523336
+      UNIEMOJI_6: 4677152857747187914
+      UNIEMOJI_60: 627299896684923288
+      UNIEMOJI_61: -6797165901201672200
+      UNIEMOJI_7: -1689527147230749197
+      UNIEMOJI_8: -8647319152171807559
+      UNIEMOJI_9: -1706847974927636674
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
