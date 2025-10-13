@@ -73,6 +73,9 @@ public class SlotCOmpo : MonoBehaviour
         BeforeItemCntInit();
         InitItemCompo();
 
+        GameManager.Instance.GetCompo<GameRuleCheck>().AddFilledSlots(-99);
+        GameManager.Instance.GetCompo<GameRuleCheck>().AddEmptySlots(-99);
+
     }
 
     public void SetMap(BashList<InsideArray<ItemSO>> map)
@@ -150,21 +153,23 @@ public class SlotCOmpo : MonoBehaviour
 
     private void BeforeItemCntInit()
     {
-        //if (_itemsSOs.List.Count > 1)
-        //{
-        //    for (int j = 0; j < _itemsSOs.List[0].items.Length; j++)
-        //    {
-        //        if(_itemsSOs.List[0].items[j] == null)
-        //        {
-        //            GameManager.Instance.GetCompo<GameRuleCheck>().AddFilledSlots(1);
-        //        }
-        //        else
-        //        {
-        //            GameManager.Instance.GetCompo<GameRuleCheck>().AddEmptySlots(1);
-        //        }
-        //        //reverse add because ItemCompo.cs will substract it!
-        //    }
-        //}
+        GameManager.Instance.GetCompo<GameRuleCheck>().AddFilledSlots(99);
+        GameManager.Instance.GetCompo<GameRuleCheck>().AddEmptySlots(99);
+        if (_itemsSOs.List.Count > 1)
+        {
+            for (int j = 0; j < _itemsSOs.List[0].items.Length; j++)
+            {
+                if (_itemsSOs.List[0].items[j] == null)
+                {
+                    GameManager.Instance.GetCompo<GameRuleCheck>().AddFilledSlots(1);
+                }
+                else
+                {
+                    GameManager.Instance.GetCompo<GameRuleCheck>().AddEmptySlots(1);
+                }
+                //reverse add because ItemCompo.cs will substract it!
+            }
+        }
     }
 
     public void InitItemCompo()
@@ -220,6 +225,7 @@ public class SlotCOmpo : MonoBehaviour
         if (bIsEmpty)
         {
             SwapNextLayer();
+            CheckSwap(); // 중간에 빈 레이어가 있을 때
         }
     }
 

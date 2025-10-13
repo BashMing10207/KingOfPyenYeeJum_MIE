@@ -21,11 +21,9 @@ public class GetCompoParent : MonoBehaviour
 
         IAfterInitable[] babies2 = GetComponentsInChildren<IAfterInitable>(true);
         {
-            int i = 0;
-            while (babies2.Length > 0)
+            for (int i = 0; i < babies2.Length; i++)
             {
-                babies2[0].AfterInit();
-                i++;
+                babies2[i].AfterInit();
             }
         }
 

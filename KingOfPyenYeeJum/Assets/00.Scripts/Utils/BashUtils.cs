@@ -37,4 +37,8 @@ public class BashList<T>
     {
         List = list;
     }
+    public BashList()
+    {
+        List = new List<T>();
+    }
 }

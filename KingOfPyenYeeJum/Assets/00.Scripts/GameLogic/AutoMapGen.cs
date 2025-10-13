@@ -243,40 +243,61 @@ public class AutoMapGen : MonoBehaviour
     // 맵의 모든 슬롯에 N개 레이어가 있도록 보정 (부족하면 추가)
     private void EnsureThreeLayers()
     {
-        if (_mapGenSource.map == null || _mapGenSource.map.Count == 0)
+        if (_mapGenSource == null || _mapGenHint == null)
         {
-            Debug.LogError("[EnsureThreeLayers] _mapGenSource.map 이 비어있습니다. 슬롯/레이아웃을 먼저 준비하세요.");
             return;
         }
+        _mapGenSource.map.Clear();
 
-        for (int i = 0; i < _mapGenSource.map.Count; i++)
+        for (int i = 0; i < _mapGenHint.SlotCnt / 3; i++) // 3Item Slot Only!
         {
-            var blist = _mapGenSource.map[i];
-            if (blist.List == null)
-                blist.List = new List<InsideArray<ItemSO>>();
+            var list = new BashList<InsideArray<ItemSO>>();
 
-            if (blist.List.Count == 0)
+            for(int j =0; j < 3;j++)
             {
-                // 최소 1개 레이어라도 없으면 기본 1칸짜리 생성
-                blist.List.Add(new InsideArray<ItemSO>(1));
+                list.List.Add(new InsideArray<ItemSO>(3));
+                for(int k = 0; k < _mapGenHint.LayerCnt;k++)
+                {
+                    //list.List[j].items[k];
+                }
             }
 
-            // 기준 길이(레이어0의 슬롯 수)
-            int baseLen = Mathf.Max(1, blist.List[0].items?.Length ?? 1);
-
-            // 레이어 수 3개로 맞춤
-            while (blist.List.Count < _mapGenHint.LayerCnt)
-            {
-                blist.List.Add(new InsideArray<ItemSO>(baseLen));
-            }
-
-            // 모든 레이어의 items 배열이 null이면 새로 생성
-            for (int k = 0; k < 3; k++)
-            {
-                if (blist.List[k].items == null || blist.List[k].items.Length == 0)
-                    blist.List[k] = new InsideArray<ItemSO>(baseLen);
-            }
+            _mapGenSource.map.Add(list);
         }
+        //if (_mapGenSource.map == null || _mapGenSource.map.Count == 0)
+        //{
+        //    Debug.LogError("[EnsureThreeLayers] _mapGenSource.map 이 비어있습니다. 슬롯/레이아웃을 먼저 준비하세요.");
+        //    return;
+        //}
+
+        //for (int i = 0; i < _mapGenSource.map.Count; i++)
+        //{
+        //    var blist = _mapGenSource.map[i];
+        //    if (blist.List == null)
+        //        blist.List = new List<InsideArray<ItemSO>>();
+
+        //    if (blist.List.Count == 0)
+        //    {
+        //        // 최소 1개 레이어라도 없으면 기본 1칸짜리 생성
+        //        blist.List.Add(new InsideArray<ItemSO>(1));
+        //    }
+
+        //    // 기준 길이(레이어0의 슬롯 수)
+        //    int baseLen = Mathf.Max(1, blist.List[0].items?.Length ?? 1);
+
+        //    // 레이어 수 3개로 맞춤
+        //    while (blist.List.Count < _mapGenHint.LayerCnt)
+        //    {
+        //        blist.List.Add(new InsideArray<ItemSO>(baseLen));
+        //    }
+
+        //    // 모든 레이어의 items 배열이 null이면 새로 생성
+        //    for (int k = 0; k < 3; k++)
+        //    {
+        //        if (blist.List[k].items == null || blist.List[k].items.Length == 0)
+        //            blist.List[k] = new InsideArray<ItemSO>(baseLen);
+        //    }
+        //}
     }
 
     // 모든 아이템 비우기(null로)

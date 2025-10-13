@@ -4,13 +4,15 @@ using UnityEngine.Events;
 
 public class GameRuleCheck : GetCompoableBase, IAfterInitable
 {
-    public int EmptySlots { get; private set; }
-    public int FilledSlots { get; private set; }
+    public int EmptySlots ;//{ get; private set; }
+    public int FilledSlots ;//{ get; private set; }
 
     public int RemainingTime = 100;
 
     public UnityEvent OnFailed;
     public UnityEvent OnSuccess;
+
+    public UnityEvent<int> TimeChanged;
 
     public void AfterInit()
     {
@@ -48,6 +50,7 @@ public class GameRuleCheck : GetCompoableBase, IAfterInitable
         if(this.EmptySlots <= 0)
         {
             OnFailed?.Invoke();
+            print("Fail!");
         }
     }
 
@@ -55,7 +58,8 @@ public class GameRuleCheck : GetCompoableBase, IAfterInitable
     {
         if(this.FilledSlots <= 0)
         {
-            OnFailed?.Invoke();
+            OnSuccess?.Invoke();
+            print("WIn");
         }
     }
 
@@ -66,6 +70,7 @@ public class GameRuleCheck : GetCompoableBase, IAfterInitable
         {
             yield return new WaitForSeconds(1);
             RemainingTime--;
+            TimeChanged?.Invoke(RemainingTime);
             if(RemainingTime <= 0)
             {
                 OnFailed?.Invoke();

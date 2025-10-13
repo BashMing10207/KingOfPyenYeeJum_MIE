@@ -16,7 +16,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d002cc2495d06724997eba831f849347, type: 2}
   - {fileID: 11400000, guid: 203919320b76eb844abd86491d39d605, type: 2}
   - {fileID: 11400000, guid: 2c192ab1ef327894c928efd1f0e88d87, type: 2}
+  - {fileID: 11400000, guid: 86b732e64feaf8b40a08690a2d57edc8, type: 2}
+  - {fileID: 11400000, guid: 1df6e4215a32c994eb8ff515da92bb2f, type: 2}
+  - {fileID: 11400000, guid: e226cc258e8ad8647a24bf6f725f584a, type: 2}
   Difficulty: 0
-  LayerCnt: 3
+  LayerCnt: 4
   SlotCnt: 12
-  itemcnt: 18
+  itemcnt: 30

@@ -30,13 +30,13 @@ public class ItemCompo : MonoBehaviour, IPointerDownHandler//, IPointerUpHandler
 
     public void InitItem(ItemSO item)
     {
-        _itemType = item;
-        _visual.raycastTarget = true;
-        if (_itemType == null)
+
+
+        if (item == null)
         {
             _visual.color = Color.clear;
             //_visual.raycastTarget = false;
-            if(_bIsFrontSlot)
+            if(_bIsFrontSlot && _itemType != item)
             {
                 GameManager.Instance.GetCompo<GameRuleCheck>().AddEmptySlots(1);
                 GameManager.Instance.GetCompo<GameRuleCheck>().AddFilledSlots(-1);
@@ -53,7 +53,11 @@ public class ItemCompo : MonoBehaviour, IPointerDownHandler//, IPointerUpHandler
             }
             //_visual.raycastTarget = true;
         }
+        if(_itemType != item)
         GameManager.Instance.GetCompo<GameTurnCheck>().OnSwap?.Invoke();
+        _itemType = item;
+        _visual.raycastTarget = true;
+
     }
     public void InitItem(ItemSO item,Color color)
     {
