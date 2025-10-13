@@ -13,15 +13,19 @@ public class ItemCompo : MonoBehaviour, IPointerDownHandler//, IPointerUpHandler
 
     protected int _myIdx=0;
 
+    protected bool _bIsFrontSlot = true;
+
     private void Awake()
     {
         _visual = GetComponentInChildren<Image>();
     }
 
-    public void InitV2(SlotCOmpo slotcompo, int idx)
+    public void BeforeInit(SlotCOmpo slotcompo, int idx,bool frontSlot)
     {
         MomSlot = slotcompo;
         _myIdx = idx;
+        _bIsFrontSlot = frontSlot;
+
     }
 
     public void InitItem(ItemSO item)
@@ -32,13 +36,24 @@ public class ItemCompo : MonoBehaviour, IPointerDownHandler//, IPointerUpHandler
         {
             _visual.color = Color.clear;
             //_visual.raycastTarget = false;
+            if(_bIsFrontSlot)
+            {
+                GameManager.Instance.GetCompo<GameRuleCheck>().AddEmptySlots(1);
+                GameManager.Instance.GetCompo<GameRuleCheck>().AddFilledSlots(-1);
+            }
         }
         else
         {
             _visual.color = Color.white;
             _visual.sprite = item.visual;
+            if (_bIsFrontSlot)
+            {
+                GameManager.Instance.GetCompo<GameRuleCheck>().AddEmptySlots(-1);
+                GameManager.Instance.GetCompo<GameRuleCheck>().AddFilledSlots(1);
+            }
             //_visual.raycastTarget = true;
         }
+        GameManager.Instance.GetCompo<GameTurnCheck>().OnSwap?.Invoke();
     }
     public void InitItem(ItemSO item,Color color)
     {

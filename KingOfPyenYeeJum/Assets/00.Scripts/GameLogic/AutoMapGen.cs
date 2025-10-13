@@ -240,7 +240,7 @@ public class AutoMapGen : MonoBehaviour
 
 
 
-    // 맵의 모든 슬롯에 3개 레이어가 있도록 보정 (부족하면 추가)
+    // 맵의 모든 슬롯에 N개 레이어가 있도록 보정 (부족하면 추가)
     private void EnsureThreeLayers()
     {
         if (_mapGenSource.map == null || _mapGenSource.map.Count == 0)
@@ -265,7 +265,7 @@ public class AutoMapGen : MonoBehaviour
             int baseLen = Mathf.Max(1, blist.List[0].items?.Length ?? 1);
 
             // 레이어 수 3개로 맞춤
-            while (blist.List.Count < 3)
+            while (blist.List.Count < _mapGenHint.LayerCnt)
             {
                 blist.List.Add(new InsideArray<ItemSO>(baseLen));
             }

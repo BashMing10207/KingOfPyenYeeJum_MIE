@@ -70,7 +70,7 @@ public class SlotCOmpo : MonoBehaviour
         }
 
         PreInitItemCompos();
-
+        BeforeItemCntInit();
         InitItemCompo();
 
     }
@@ -148,6 +148,25 @@ public class SlotCOmpo : MonoBehaviour
         InitItemCompo();
     }
 
+    private void BeforeItemCntInit()
+    {
+        //if (_itemsSOs.List.Count > 1)
+        //{
+        //    for (int j = 0; j < _itemsSOs.List[0].items.Length; j++)
+        //    {
+        //        if(_itemsSOs.List[0].items[j] == null)
+        //        {
+        //            GameManager.Instance.GetCompo<GameRuleCheck>().AddFilledSlots(1);
+        //        }
+        //        else
+        //        {
+        //            GameManager.Instance.GetCompo<GameRuleCheck>().AddEmptySlots(1);
+        //        }
+        //        //reverse add because ItemCompo.cs will substract it!
+        //    }
+        //}
+    }
+
     public void InitItemCompo()
     {
         for (int i = 0; i < _itemCompos.List.Count; i++)
@@ -181,7 +200,7 @@ public class SlotCOmpo : MonoBehaviour
         {
             for (int j = 0; j < _itemsSOs.List[i].items.Length; j++)
             {
-                _itemCompos.List[i].items[j].InitV2(this,j);
+                _itemCompos.List[i].items[j].BeforeInit(this,j, i ==0);
             }
         }
     }

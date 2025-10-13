@@ -24,11 +24,10 @@ public class GetCompoParent : MonoBehaviour
             int i = 0;
             while (babies2.Length > 0)
             {
-                babies2[0].Init();
+                babies2[0].AfterInit();
                 i++;
             }
         }
-
 
     }
 
@@ -58,7 +57,7 @@ public class GetCompoParent : MonoBehaviour
         }
 
         if (isIncludeChild == false) return default; 
-        //-----Under code is Ailian's Langage ---I think that Linq is not good idea
+        //-----Under code is Ailian's Langage ---I think that Linq is not good idea shit!
 
         Type findType = _components.Keys.FirstOrDefault(type => type.IsSubclassOf(typeof(T)));
         
