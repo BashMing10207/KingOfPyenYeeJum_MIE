@@ -119,7 +119,7 @@ public class SlotCOmpo : MonoBehaviour
     }
     public bool RemoveItem(ItemSO newitem)
     {
-        Debug.LogWarning("Ming");
+        //Debug.LogWarning("Ming");
         if (_itemsSOs.List[0].items.Contains(newitem))
             for (int i = 0; i < _itemsSOs.List.Count; i++)
             {
@@ -139,16 +139,19 @@ public class SlotCOmpo : MonoBehaviour
     {
         if (_itemsSOs.List.Count <2)
         {
-            //for (int i = 0; i < _itemCompos.List[0].items.Length; i++)
-            //{
-            //    _itemCompos.List[0].items[i].RemoveItem();
-            //}
+            //only 3itemSLot
+            for (int i = 0; i < _itemCompos.List[0].items.Length; i++)
+            {
+                _itemCompos.List[0].items[i].RemoveItem();
+            }
+            //CheckMatchAndSwap();
             return;
         }
             
         _itemsSOs.List.RemoveAt(0);
 
         InitItemCompo();
+        CheckMatchAndSwap();
     }
 
     private void BeforeItemCntInit()
@@ -218,14 +221,13 @@ public class SlotCOmpo : MonoBehaviour
         {
             if (_itemsSOs.List[0].items[i] != null)
             {
-                bIsEmpty = false; break;
+                return;
             }
         }
 
         if (bIsEmpty)
         {
             SwapNextLayer();
-            CheckSwap(); // 중간에 빈 레이어가 있을 때
         }
     }
 

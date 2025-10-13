@@ -103,7 +103,7 @@ public class ItemCompo : MonoBehaviour, IPointerDownHandler//, IPointerUpHandler
 
         InitItem(null);
 
-        MomSlot.CheckMatchAndSwap();
+        //MomSlot.CheckMatchAndSwap();
     }
 
     //public void OnPointerUp(PointerEventData eventData)

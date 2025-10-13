@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
-using static UnityEditor.PlayerSettings;
 
 public class GameCursor : GetCompoableBase
 {
@@ -79,8 +78,14 @@ public class GameCursor : GetCompoableBase
             ItemCompo slot = _hitList[0].gameObject.GetComponent<ItemCompo>();
             if (slot)
             {
-                if (slot.InsertItem(_selectedItemCompo.GetCurrentItem()))
+                //if (slot.InsertItem(_selectedItemCompo.GetCurrentItem()))
+                if (slot.GetCurrentItem() == null)
+                {
+                    ItemSO itemtemp = _selectedItemCompo.GetCurrentItem();
                     _selectedItemCompo.RemoveItem();
+                    slot.InsertItem(itemtemp);
+                    //_selectedItemCompo.MomSlot.CheckMatchAndSwap();
+                }
 
             }
         }

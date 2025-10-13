@@ -20,6 +20,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1df6e4215a32c994eb8ff515da92bb2f, type: 2}
   - {fileID: 11400000, guid: e226cc258e8ad8647a24bf6f725f584a, type: 2}
   Difficulty: 0
-  LayerCnt: 3
+  LayerCnt: 4
   SlotCnt: 15
-  itemcnt: 36
+  itemcnt: 45
