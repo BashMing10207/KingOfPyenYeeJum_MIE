@@ -125,6 +125,8 @@ public class AutoMapGen : MonoBehaviour
             return;
         }
 
+        _mapGenHint.itemcnt -= _mapGenHint.itemcnt % 3;
+
         // 1) 맵 구조 보정: 모든 슬롯이 3개 레이어를 갖도록 맞춤
         EnsureThreeLayers();
 
@@ -178,9 +180,7 @@ public class AutoMapGen : MonoBehaviour
         Debug.Log($"[GenerateByResidueTargets] R(1)={R[0]}, R(2)={R[1]}, R(3)={R[2]}  (Target {_targetR1}, {_targetR2}, 0)");
     }
 
-    // ========================= 헬퍼들: 구조 보정/배치/검증 =========================
 
-    // 클래스 내부에 추가
     private void EnsureNoEmptyMiddleLayer(ref List<Block> blocks)
     {
         // 최대 몇 번까지 시도 (무한루프 방지)
